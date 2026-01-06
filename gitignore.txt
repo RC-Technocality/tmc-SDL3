@@ -1,0 +1,91 @@
+# build artifacts
+src/*.s
+build/
+cmake-build-*
+*.elf
+*.exe
+*.gba
+*.i
+*.o
+*.map
+*.pcm
+sound/**/*.bin
+sound/songs/midi/*.s
+translations/*.bin
+
+# doxygen
+docs/doxygen/html/
+docs/doxygen/xml/
+
+# tools
+tools/agbcc
+tools/binutils
+
+# scripts
+*.py
+!tools/extract_include_enum.py
+*.pl
+
+# graphics
+*.1bpp
+*.4bpp
+*.8bpp
+*.fwjpnfont
+*.sgm
+*.sa1
+*.sg1
+*.gbapal
+*.hwjpnfont
+*.latfont
+*.lz
+
+# system files
+*.DS_Store
+
+# IDE
+.vscode/settings.json
+.vscode/c_cpp_properties.json
+.vscode/tasks.json
+*.code-workspace
+.idea/
+
+# misc
+.fuse_hidden*
+*.bak
+*.bat
+*.diff
+*.dump
+*.id0
+*.id1
+*.id2
+*.idb
+*.dmp
+*.nam
+*.rl
+*.s.old
+*.s.old2
+*.sa*
+*.swo
+*.swp
+*.til
+*.ss1
+*.ss2
+*.ss3
+*.ss4
+*.ss5
+*.ss6
+*.ss7
+*.ss8
+*.ss9
+Thumbs.db
+tags
+types_*.taghl
+*.zip
+!calcrom.pl
+!sound/programmable_wave_samples/*.pcm
+_Deparsed_XSubs.pm
+*.sna
+__pycache__
+Info.plist
+ctx.c
+!doxygen_config.py
