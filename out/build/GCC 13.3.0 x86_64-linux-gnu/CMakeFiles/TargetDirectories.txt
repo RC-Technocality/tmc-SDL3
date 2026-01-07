@@ -1,8 +1,0 @@
-/home/rigoc/repos/tmc-SDL3/out/build/GCC 13.3.0 x86_64-linux-gnu/CMakeFiles/hello.dir
-/home/rigoc/repos/tmc-SDL3/out/build/GCC 13.3.0 x86_64-linux-gnu/CMakeFiles/edit_cache.dir
-/home/rigoc/repos/tmc-SDL3/out/build/GCC 13.3.0 x86_64-linux-gnu/CMakeFiles/rebuild_cache.dir
-/home/rigoc/repos/tmc-SDL3/out/build/GCC 13.3.0 x86_64-linux-gnu/vendored/SDL/CMakeFiles/SDL3-shared.dir
-/home/rigoc/repos/tmc-SDL3/out/build/GCC 13.3.0 x86_64-linux-gnu/vendored/SDL/CMakeFiles/SDL3_test.dir
-/home/rigoc/repos/tmc-SDL3/out/build/GCC 13.3.0 x86_64-linux-gnu/vendored/SDL/CMakeFiles/SDL_uclibc.dir
-/home/rigoc/repos/tmc-SDL3/out/build/GCC 13.3.0 x86_64-linux-gnu/vendored/SDL/CMakeFiles/edit_cache.dir
-/home/rigoc/repos/tmc-SDL3/out/build/GCC 13.3.0 x86_64-linux-gnu/vendored/SDL/CMakeFiles/rebuild_cache.dir

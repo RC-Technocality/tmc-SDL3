@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/hello.dir/hello.c.o -o Debug/hello  -Wl,-rpath,/home/rigoc/repos/tmc-SDL3/build/Debug Debug/libSDL3.so.0.5.0 
