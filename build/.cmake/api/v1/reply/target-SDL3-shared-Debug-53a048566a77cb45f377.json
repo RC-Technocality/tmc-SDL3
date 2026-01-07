@@ -1,0 +1,6966 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Debug/libSDL3.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_options",
+			"sdl_shared_link_options",
+			"sdl_generic_link_dependency",
+			"sdl_link_dependency",
+			"CheckPTHREAD",
+			"target_link_libraries",
+			"target_compile_options",
+			"sdl_target_compile_option_all_languages",
+			"SDL_AddCommonCompilerFlags",
+			"sdl_compile_options",
+			"target_compile_definitions",
+			"sdl_compile_definitions",
+			"target_include_directories",
+			"sdl_include_directories",
+			"CheckWayland",
+			"CheckKMSDRM",
+			"target_precompile_headers",
+			"target_sources",
+			"sdl_glob_sources",
+			"CheckALSA",
+			"CheckPulseAudio",
+			"CheckSNDIO",
+			"CheckX11",
+			"sdl_sources",
+			"WaylandProtocolGen",
+			"CheckHIDAPI"
+		],
+		"files" : 
+		[
+			"vendored/SDL/CMakeLists.txt",
+			"vendored/SDL/cmake/sdlcommands.cmake",
+			"vendored/SDL/cmake/sdlchecks.cmake",
+			"vendored/SDL/cmake/sdlcompilers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 460,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 518,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 208,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 671,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 208,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 2075,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 1030,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 98,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 73,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1110,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 98,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 72,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 1309,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 462,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 64,
+				"parent" : 14
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 26,
+				"parent" : 15
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 72,
+				"parent" : 14
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 26,
+				"parent" : 17
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 77,
+				"parent" : 14
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 26,
+				"parent" : 19
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 82,
+				"parent" : 14
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 26,
+				"parent" : 21
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 119,
+				"parent" : 14
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 26,
+				"parent" : 23
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 124,
+				"parent" : 14
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 26,
+				"parent" : 25
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 129,
+				"parent" : 14
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 26,
+				"parent" : 27
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 162,
+				"parent" : 14
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 26,
+				"parent" : 29
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 551,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 151,
+				"parent" : 31
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 1029,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 151,
+				"parent" : 33
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 463,
+				"parent" : 0
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 4035,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 132,
+				"parent" : 36
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 542,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 132,
+				"parent" : 38
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 543,
+				"parent" : 0
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 180,
+				"parent" : 40
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 3986,
+				"parent" : 0
+			},
+			{
+				"command" : 15,
+				"file" : 0,
+				"line" : 1827,
+				"parent" : 0
+			},
+			{
+				"command" : 14,
+				"file" : 2,
+				"line" : 684,
+				"parent" : 43
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 180,
+				"parent" : 44
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 1823,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 1391,
+				"parent" : 46
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 98,
+				"parent" : 47
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 71,
+				"parent" : 48
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 751,
+				"parent" : 43
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 98,
+				"parent" : 50
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 71,
+				"parent" : 51
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 1940,
+				"parent" : 0
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 180,
+				"parent" : 53
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 1952,
+				"parent" : 0
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 180,
+				"parent" : 55
+			},
+			{
+				"command" : 17,
+				"file" : 0,
+				"line" : 4005,
+				"parent" : 0
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 1236,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 58
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 1335,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 60
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 1344,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 62
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 1357,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 64
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 1379,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 66
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 1395,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 68
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 1405,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 70
+			},
+			{
+				"command" : 20,
+				"file" : 0,
+				"line" : 1806,
+				"parent" : 0
+			},
+			{
+				"command" : 19,
+				"file" : 2,
+				"line" : 105,
+				"parent" : 72
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 73
+			},
+			{
+				"command" : 21,
+				"file" : 0,
+				"line" : 1809,
+				"parent" : 0
+			},
+			{
+				"command" : 19,
+				"file" : 2,
+				"line" : 186,
+				"parent" : 75
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 76
+			},
+			{
+				"command" : 22,
+				"file" : 0,
+				"line" : 1810,
+				"parent" : 0
+			},
+			{
+				"command" : 19,
+				"file" : 2,
+				"line" : 250,
+				"parent" : 78
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 79
+			},
+			{
+				"command" : 23,
+				"file" : 0,
+				"line" : 1818,
+				"parent" : 0
+			},
+			{
+				"command" : 19,
+				"file" : 2,
+				"line" : 330,
+				"parent" : 81
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 82
+			},
+			{
+				"command" : 19,
+				"file" : 2,
+				"line" : 1376,
+				"parent" : 46
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 84
+			},
+			{
+				"command" : 19,
+				"file" : 2,
+				"line" : 679,
+				"parent" : 43
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 86
+			},
+			{
+				"command" : 25,
+				"file" : 2,
+				"line" : 689,
+				"parent" : 43
+			},
+			{
+				"command" : 24,
+				"file" : 2,
+				"line" : 634,
+				"parent" : 88
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 89
+			},
+			{
+				"command" : 25,
+				"file" : 2,
+				"line" : 689,
+				"parent" : 43
+			},
+			{
+				"command" : 24,
+				"file" : 2,
+				"line" : 634,
+				"parent" : 91
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 92
+			},
+			{
+				"command" : 25,
+				"file" : 2,
+				"line" : 689,
+				"parent" : 43
+			},
+			{
+				"command" : 24,
+				"file" : 2,
+				"line" : 634,
+				"parent" : 94
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 95
+			},
+			{
+				"command" : 25,
+				"file" : 2,
+				"line" : 689,
+				"parent" : 43
+			},
+			{
+				"command" : 24,
+				"file" : 2,
+				"line" : 634,
+				"parent" : 97
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 98
+			},
+			{
+				"command" : 25,
+				"file" : 2,
+				"line" : 689,
+				"parent" : 43
+			},
+			{
+				"command" : 24,
+				"file" : 2,
+				"line" : 634,
+				"parent" : 100
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 101
+			},
+			{
+				"command" : 25,
+				"file" : 2,
+				"line" : 689,
+				"parent" : 43
+			},
+			{
+				"command" : 24,
+				"file" : 2,
+				"line" : 634,
+				"parent" : 103
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 104
+			},
+			{
+				"command" : 25,
+				"file" : 2,
+				"line" : 689,
+				"parent" : 43
+			},
+			{
+				"command" : 24,
+				"file" : 2,
+				"line" : 634,
+				"parent" : 106
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 107
+			},
+			{
+				"command" : 25,
+				"file" : 2,
+				"line" : 689,
+				"parent" : 43
+			},
+			{
+				"command" : 24,
+				"file" : 2,
+				"line" : 634,
+				"parent" : 109
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 110
+			},
+			{
+				"command" : 25,
+				"file" : 2,
+				"line" : 689,
+				"parent" : 43
+			},
+			{
+				"command" : 24,
+				"file" : 2,
+				"line" : 634,
+				"parent" : 112
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 113
+			},
+			{
+				"command" : 25,
+				"file" : 2,
+				"line" : 689,
+				"parent" : 43
+			},
+			{
+				"command" : 24,
+				"file" : 2,
+				"line" : 634,
+				"parent" : 115
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 116
+			},
+			{
+				"command" : 25,
+				"file" : 2,
+				"line" : 689,
+				"parent" : 43
+			},
+			{
+				"command" : 24,
+				"file" : 2,
+				"line" : 634,
+				"parent" : 118
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 119
+			},
+			{
+				"command" : 25,
+				"file" : 2,
+				"line" : 689,
+				"parent" : 43
+			},
+			{
+				"command" : 24,
+				"file" : 2,
+				"line" : 634,
+				"parent" : 121
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 122
+			},
+			{
+				"command" : 25,
+				"file" : 2,
+				"line" : 689,
+				"parent" : 43
+			},
+			{
+				"command" : 24,
+				"file" : 2,
+				"line" : 634,
+				"parent" : 124
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 125
+			},
+			{
+				"command" : 25,
+				"file" : 2,
+				"line" : 689,
+				"parent" : 43
+			},
+			{
+				"command" : 24,
+				"file" : 2,
+				"line" : 634,
+				"parent" : 127
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 128
+			},
+			{
+				"command" : 25,
+				"file" : 2,
+				"line" : 689,
+				"parent" : 43
+			},
+			{
+				"command" : 24,
+				"file" : 2,
+				"line" : 634,
+				"parent" : 130
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 131
+			},
+			{
+				"command" : 25,
+				"file" : 2,
+				"line" : 689,
+				"parent" : 43
+			},
+			{
+				"command" : 24,
+				"file" : 2,
+				"line" : 634,
+				"parent" : 133
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 134
+			},
+			{
+				"command" : 25,
+				"file" : 2,
+				"line" : 689,
+				"parent" : 43
+			},
+			{
+				"command" : 24,
+				"file" : 2,
+				"line" : 634,
+				"parent" : 136
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 137
+			},
+			{
+				"command" : 25,
+				"file" : 2,
+				"line" : 689,
+				"parent" : 43
+			},
+			{
+				"command" : 24,
+				"file" : 2,
+				"line" : 634,
+				"parent" : 139
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 140
+			},
+			{
+				"command" : 25,
+				"file" : 2,
+				"line" : 689,
+				"parent" : 43
+			},
+			{
+				"command" : 24,
+				"file" : 2,
+				"line" : 634,
+				"parent" : 142
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 143
+			},
+			{
+				"command" : 25,
+				"file" : 2,
+				"line" : 689,
+				"parent" : 43
+			},
+			{
+				"command" : 24,
+				"file" : 2,
+				"line" : 634,
+				"parent" : 145
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 146
+			},
+			{
+				"command" : 25,
+				"file" : 2,
+				"line" : 689,
+				"parent" : 43
+			},
+			{
+				"command" : 24,
+				"file" : 2,
+				"line" : 634,
+				"parent" : 148
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 149
+			},
+			{
+				"command" : 25,
+				"file" : 2,
+				"line" : 689,
+				"parent" : 43
+			},
+			{
+				"command" : 24,
+				"file" : 2,
+				"line" : 634,
+				"parent" : 151
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 152
+			},
+			{
+				"command" : 25,
+				"file" : 2,
+				"line" : 689,
+				"parent" : 43
+			},
+			{
+				"command" : 24,
+				"file" : 2,
+				"line" : 634,
+				"parent" : 154
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 155
+			},
+			{
+				"command" : 25,
+				"file" : 2,
+				"line" : 689,
+				"parent" : 43
+			},
+			{
+				"command" : 24,
+				"file" : 2,
+				"line" : 634,
+				"parent" : 157
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 158
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 1835,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 160
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 1843,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 162
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 1895,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 164
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 1907,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 166
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 1983,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 168
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 1994,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 170
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 2001,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 172
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 2008,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 174
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 2015,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 176
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 2022,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 178
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 2048,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 180
+			},
+			{
+				"command" : 26,
+				"file" : 0,
+				"line" : 2058,
+				"parent" : 0
+			},
+			{
+				"command" : 19,
+				"file" : 2,
+				"line" : 1296,
+				"parent" : 182
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 183
+			},
+			{
+				"command" : 19,
+				"file" : 2,
+				"line" : 1297,
+				"parent" : 182
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 185
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 2067,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 187
+			},
+			{
+				"command" : 24,
+				"file" : 2,
+				"line" : 1088,
+				"parent" : 6
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 189
+			},
+			{
+				"command" : 24,
+				"file" : 2,
+				"line" : 1096,
+				"parent" : 6
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 191
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 2090,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 193
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 2096,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 195
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 2101,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 197
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 2105,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 199
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 2109,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 201
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 2112,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 203
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 2120,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 205
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 2124,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 207
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 2128,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 209
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 3412,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 211
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 3414,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 213
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 3419,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 215
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 3420,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 217
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 3421,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 219
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 3422,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 221
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 3423,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 223
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 3437,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 225
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 3438,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 227
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 3441,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 229
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 3490,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 231
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 3504,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 233
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 3513,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 235
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 3525,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 237
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 3576,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 239
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 3659,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 241
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 3708,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 243
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC -fvisibility=hidden"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Wundef"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : "-Wfloat-conversion"
+				},
+				{
+					"backtrace" : 22,
+					"fragment" : "-fno-strict-aliasing"
+				},
+				{
+					"backtrace" : 24,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 26,
+					"fragment" : "-Wno-unused-local-typedefs"
+				},
+				{
+					"backtrace" : 28,
+					"fragment" : "-Wimplicit-fallthrough"
+				},
+				{
+					"backtrace" : 30,
+					"fragment" : "-fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 32,
+					"fragment" : "-idirafter/home/rigoc/repos/tmc-SDL3/vendored/SDL/src/video/khronos"
+				},
+				{
+					"backtrace" : 34,
+					"fragment" : "-D_REENTRANT"
+				},
+				{
+					"fragment" : "-Winvalid-pch -x c-header -include /home/rigoc/repos/tmc-SDL3/build/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 35,
+					"define" : "DEBUG"
+				},
+				{
+					"define" : "DLL_EXPORT"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "SDL_BUILD_MAJOR_VERSION=3"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "SDL_BUILD_MICRO_VERSION=0"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "SDL_BUILD_MINOR_VERSION=5"
+				},
+				{
+					"backtrace" : 39,
+					"define" : "USING_GENERATED_CONFIG_H"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 41,
+					"path" : "/home/rigoc/repos/tmc-SDL3/build/vendored/SDL/include-config-debug/build_config"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "/home/rigoc/repos/tmc-SDL3/build/vendored/SDL/include-revision"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "/home/rigoc/repos/tmc-SDL3/vendored/SDL/include"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "/home/rigoc/repos/tmc-SDL3/vendored/SDL/src"
+				},
+				{
+					"backtrace" : 45,
+					"isSystem" : true,
+					"path" : "/home/rigoc/repos/tmc-SDL3/build/vendored/SDL/wayland-generated-protocols"
+				},
+				{
+					"backtrace" : 49,
+					"isSystem" : true,
+					"path" : "/usr/include/libdrm"
+				},
+				{
+					"backtrace" : 52,
+					"isSystem" : true,
+					"path" : "/usr/include/libdecor-0"
+				},
+				{
+					"backtrace" : 54,
+					"isSystem" : true,
+					"path" : "/usr/include/dbus-1.0"
+				},
+				{
+					"backtrace" : 54,
+					"isSystem" : true,
+					"path" : "/usr/lib/x86_64-linux-gnu/dbus-1.0/include"
+				},
+				{
+					"backtrace" : 56,
+					"isSystem" : true,
+					"path" : "/usr/include/ibus-1.0"
+				},
+				{
+					"backtrace" : 56,
+					"isSystem" : true,
+					"path" : "/usr/include/glib-2.0"
+				},
+				{
+					"backtrace" : 56,
+					"isSystem" : true,
+					"path" : "/usr/lib/x86_64-linux-gnu/glib-2.0/include"
+				},
+				{
+					"backtrace" : 56,
+					"isSystem" : true,
+					"path" : "/usr/include/libmount"
+				},
+				{
+					"backtrace" : 56,
+					"isSystem" : true,
+					"path" : "/usr/include/blkid"
+				}
+			],
+			"language" : "C",
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 57,
+					"header" : "/home/rigoc/repos/tmc-SDL3/vendored/SDL/src/SDL_internal.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC -fvisibility=hidden"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Wundef"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : "-Wfloat-conversion"
+				},
+				{
+					"backtrace" : 22,
+					"fragment" : "-fno-strict-aliasing"
+				},
+				{
+					"backtrace" : 24,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 26,
+					"fragment" : "-Wno-unused-local-typedefs"
+				},
+				{
+					"backtrace" : 28,
+					"fragment" : "-Wimplicit-fallthrough"
+				},
+				{
+					"backtrace" : 30,
+					"fragment" : "-fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 32,
+					"fragment" : "-idirafter/home/rigoc/repos/tmc-SDL3/vendored/SDL/src/video/khronos"
+				},
+				{
+					"backtrace" : 34,
+					"fragment" : "-D_REENTRANT"
+				},
+				{
+					"fragment" : "-Winvalid-pch -include /home/rigoc/repos/tmc-SDL3/build/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 35,
+					"define" : "DEBUG"
+				},
+				{
+					"define" : "DLL_EXPORT"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "SDL_BUILD_MAJOR_VERSION=3"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "SDL_BUILD_MICRO_VERSION=0"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "SDL_BUILD_MINOR_VERSION=5"
+				},
+				{
+					"backtrace" : 39,
+					"define" : "USING_GENERATED_CONFIG_H"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 41,
+					"path" : "/home/rigoc/repos/tmc-SDL3/build/vendored/SDL/include-config-debug/build_config"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "/home/rigoc/repos/tmc-SDL3/build/vendored/SDL/include-revision"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "/home/rigoc/repos/tmc-SDL3/vendored/SDL/include"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "/home/rigoc/repos/tmc-SDL3/vendored/SDL/src"
+				},
+				{
+					"backtrace" : 45,
+					"isSystem" : true,
+					"path" : "/home/rigoc/repos/tmc-SDL3/build/vendored/SDL/wayland-generated-protocols"
+				},
+				{
+					"backtrace" : 49,
+					"isSystem" : true,
+					"path" : "/usr/include/libdrm"
+				},
+				{
+					"backtrace" : 52,
+					"isSystem" : true,
+					"path" : "/usr/include/libdecor-0"
+				},
+				{
+					"backtrace" : 54,
+					"isSystem" : true,
+					"path" : "/usr/include/dbus-1.0"
+				},
+				{
+					"backtrace" : 54,
+					"isSystem" : true,
+					"path" : "/usr/lib/x86_64-linux-gnu/dbus-1.0/include"
+				},
+				{
+					"backtrace" : 56,
+					"isSystem" : true,
+					"path" : "/usr/include/ibus-1.0"
+				},
+				{
+					"backtrace" : 56,
+					"isSystem" : true,
+					"path" : "/usr/include/glib-2.0"
+				},
+				{
+					"backtrace" : 56,
+					"isSystem" : true,
+					"path" : "/usr/lib/x86_64-linux-gnu/glib-2.0/include"
+				},
+				{
+					"backtrace" : 56,
+					"isSystem" : true,
+					"path" : "/usr/include/libmount"
+				},
+				{
+					"backtrace" : 56,
+					"isSystem" : true,
+					"path" : "/usr/include/blkid"
+				}
+			],
+			"language" : "C",
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 57,
+					"header" : "/home/rigoc/repos/tmc-SDL3/vendored/SDL/src/SDL_internal.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				4,
+				6,
+				7,
+				9,
+				12,
+				14,
+				16,
+				18,
+				20,
+				21,
+				22,
+				25,
+				26,
+				28,
+				30,
+				32,
+				33,
+				35,
+				37,
+				40,
+				42,
+				49,
+				51,
+				53,
+				55,
+				57,
+				59,
+				61,
+				63,
+				65,
+				67,
+				69,
+				71,
+				73,
+				74,
+				76,
+				78,
+				82,
+				88,
+				91,
+				93,
+				96,
+				106,
+				108,
+				111,
+				112,
+				115,
+				117,
+				121,
+				124,
+				126,
+				128,
+				129,
+				132,
+				133,
+				136,
+				138,
+				140,
+				146,
+				147,
+				153,
+				154,
+				165,
+				167,
+				170,
+				172,
+				173,
+				180,
+				183,
+				184,
+				187,
+				188,
+				190,
+				191,
+				193,
+				195,
+				197,
+				200,
+				202,
+				204,
+				206,
+				208,
+				209,
+				212,
+				215,
+				216,
+				222,
+				226,
+				227,
+				228,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				244,
+				247,
+				249,
+				251,
+				253,
+				255,
+				257,
+				258,
+				259,
+				260,
+				261,
+				263,
+				265,
+				267,
+				268,
+				270,
+				272,
+				273,
+				275,
+				278,
+				280,
+				282,
+				283,
+				286,
+				288,
+				291,
+				292,
+				299,
+				302,
+				305,
+				308,
+				310,
+				312,
+				313,
+				314,
+				316,
+				318,
+				320,
+				322,
+				323,
+				324,
+				325,
+				326,
+				327,
+				328,
+				329,
+				330,
+				331,
+				332,
+				333,
+				334,
+				335,
+				336,
+				337,
+				338,
+				339,
+				340,
+				341,
+				342,
+				343,
+				344,
+				345,
+				346,
+				347,
+				348,
+				349,
+				350,
+				351,
+				352,
+				353,
+				354,
+				355,
+				356,
+				357,
+				358,
+				359,
+				360,
+				361,
+				362,
+				363,
+				364,
+				365,
+				366,
+				367,
+				368,
+				369,
+				370,
+				371,
+				372,
+				373,
+				374,
+				375,
+				376,
+				377,
+				378,
+				379,
+				380,
+				381,
+				382,
+				383,
+				384,
+				385,
+				386,
+				387,
+				388,
+				389,
+				390,
+				391,
+				392,
+				393,
+				395,
+				397,
+				399,
+				401,
+				403,
+				404,
+				405,
+				407,
+				409,
+				411,
+				413,
+				415,
+				417,
+				419,
+				420,
+				421,
+				423,
+				424,
+				425,
+				426,
+				427,
+				428,
+				429,
+				430,
+				431,
+				432,
+				433,
+				434,
+				435,
+				436,
+				437,
+				438,
+				439,
+				440,
+				441,
+				442,
+				443,
+				444,
+				445,
+				446,
+				447,
+				448,
+				449,
+				450,
+				451,
+				452,
+				453,
+				455,
+				456,
+				457,
+				458,
+				459,
+				460,
+				461,
+				462,
+				463,
+				464,
+				465,
+				466,
+				468,
+				469,
+				470,
+				471,
+				472,
+				473,
+				474,
+				476,
+				479,
+				480,
+				481,
+				482,
+				484,
+				486,
+				488,
+				490,
+				492,
+				494,
+				495,
+				497,
+				499
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC -fvisibility=hidden"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Wundef"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : "-Wfloat-conversion"
+				},
+				{
+					"backtrace" : 22,
+					"fragment" : "-fno-strict-aliasing"
+				},
+				{
+					"backtrace" : 24,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 26,
+					"fragment" : "-Wno-unused-local-typedefs"
+				},
+				{
+					"backtrace" : 28,
+					"fragment" : "-Wimplicit-fallthrough"
+				},
+				{
+					"backtrace" : 30,
+					"fragment" : "-fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 32,
+					"fragment" : "-idirafter/home/rigoc/repos/tmc-SDL3/vendored/SDL/src/video/khronos"
+				},
+				{
+					"backtrace" : 34,
+					"fragment" : "-D_REENTRANT"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 35,
+					"define" : "DEBUG"
+				},
+				{
+					"define" : "DLL_EXPORT"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "SDL_BUILD_MAJOR_VERSION=3"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "SDL_BUILD_MICRO_VERSION=0"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "SDL_BUILD_MINOR_VERSION=5"
+				},
+				{
+					"backtrace" : 39,
+					"define" : "USING_GENERATED_CONFIG_H"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 41,
+					"path" : "/home/rigoc/repos/tmc-SDL3/build/vendored/SDL/include-config-debug/build_config"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "/home/rigoc/repos/tmc-SDL3/build/vendored/SDL/include-revision"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "/home/rigoc/repos/tmc-SDL3/vendored/SDL/include"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "/home/rigoc/repos/tmc-SDL3/vendored/SDL/src"
+				},
+				{
+					"backtrace" : 45,
+					"isSystem" : true,
+					"path" : "/home/rigoc/repos/tmc-SDL3/build/vendored/SDL/wayland-generated-protocols"
+				},
+				{
+					"backtrace" : 49,
+					"isSystem" : true,
+					"path" : "/usr/include/libdrm"
+				},
+				{
+					"backtrace" : 52,
+					"isSystem" : true,
+					"path" : "/usr/include/libdecor-0"
+				},
+				{
+					"backtrace" : 54,
+					"isSystem" : true,
+					"path" : "/usr/include/dbus-1.0"
+				},
+				{
+					"backtrace" : 54,
+					"isSystem" : true,
+					"path" : "/usr/lib/x86_64-linux-gnu/dbus-1.0/include"
+				},
+				{
+					"backtrace" : 56,
+					"isSystem" : true,
+					"path" : "/usr/include/ibus-1.0"
+				},
+				{
+					"backtrace" : 56,
+					"isSystem" : true,
+					"path" : "/usr/include/glib-2.0"
+				},
+				{
+					"backtrace" : 56,
+					"isSystem" : true,
+					"path" : "/usr/lib/x86_64-linux-gnu/glib-2.0/include"
+				},
+				{
+					"backtrace" : 56,
+					"isSystem" : true,
+					"path" : "/usr/include/libmount"
+				},
+				{
+					"backtrace" : 56,
+					"isSystem" : true,
+					"path" : "/usr/include/blkid"
+				}
+			],
+			"language" : "C",
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 57,
+					"header" : "/home/rigoc/repos/tmc-SDL3/vendored/SDL/src/SDL_internal.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				44
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 13,
+			"id" : "SDL_uclibc::@8fb704815aaca498baa2"
+		}
+	],
+	"id" : "SDL3-shared::@8fb704815aaca498baa2",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--version-script=/home/rigoc/repos/tmc-SDL3/vendored/SDL/src/dynapi/SDL_dynapi.sym",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Wl,--no-undefined",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "-pthread",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "libSDL_uclibc.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "SDL3-shared",
+	"nameOnDisk" : "libSDL3.so",
+	"paths" : 
+	{
+		"build" : "vendored/SDL",
+		"source" : "vendored/SDL"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				368,
+				369,
+				370,
+				371,
+				372,
+				373,
+				374,
+				375,
+				376,
+				377,
+				378,
+				379,
+				380,
+				381,
+				382,
+				383,
+				384,
+				385,
+				386,
+				387,
+				388,
+				389,
+				390,
+				391
+			]
+		},
+		{
+			"name" : "src",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19
+			]
+		},
+		{
+			"name" : "src\\atomic",
+			"sourceIndexes" : 
+			[
+				20,
+				21
+			]
+		},
+		{
+			"name" : "src\\audio",
+			"sourceIndexes" : 
+			[
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36
+			]
+		},
+		{
+			"name" : "src\\camera",
+			"sourceIndexes" : 
+			[
+				37,
+				38,
+				39
+			]
+		},
+		{
+			"name" : "src\\core",
+			"sourceIndexes" : 
+			[
+				40,
+				41
+			]
+		},
+		{
+			"name" : "src\\cpuinfo",
+			"sourceIndexes" : 
+			[
+				42,
+				43
+			]
+		},
+		{
+			"name" : "src\\dynapi",
+			"sourceIndexes" : 
+			[
+				44,
+				45,
+				46,
+				47,
+				48
+			]
+		},
+		{
+			"name" : "src\\events",
+			"sourceIndexes" : 
+			[
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87
+			]
+		},
+		{
+			"name" : "src\\filesystem",
+			"sourceIndexes" : 
+			[
+				88,
+				89,
+				90
+			]
+		},
+		{
+			"name" : "src\\gpu",
+			"sourceIndexes" : 
+			[
+				91,
+				92
+			]
+		},
+		{
+			"name" : "src\\haptic",
+			"sourceIndexes" : 
+			[
+				93,
+				94,
+				95
+			]
+		},
+		{
+			"name" : "src\\hidapi",
+			"sourceIndexes" : 
+			[
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105
+			]
+		},
+		{
+			"name" : "src\\io",
+			"sourceIndexes" : 
+			[
+				106,
+				107,
+				108,
+				109,
+				110
+			]
+		},
+		{
+			"name" : "src\\io\\generic",
+			"sourceIndexes" : 
+			[
+				111
+			]
+		},
+		{
+			"name" : "src\\joystick",
+			"sourceIndexes" : 
+			[
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123
+			]
+		},
+		{
+			"name" : "src\\locale",
+			"sourceIndexes" : 
+			[
+				124,
+				125
+			]
+		},
+		{
+			"name" : "src\\main",
+			"sourceIndexes" : 
+			[
+				126,
+				127,
+				128
+			]
+		},
+		{
+			"name" : "src\\misc",
+			"sourceIndexes" : 
+			[
+				129,
+				130,
+				131,
+				132
+			]
+		},
+		{
+			"name" : "src\\power",
+			"sourceIndexes" : 
+			[
+				133,
+				134
+			]
+		},
+		{
+			"name" : "src\\render",
+			"sourceIndexes" : 
+			[
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141
+			]
+		},
+		{
+			"name" : "src\\render\\direct3d",
+			"sourceIndexes" : 
+			[
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148
+			]
+		},
+		{
+			"name" : "src\\render\\direct3d11",
+			"sourceIndexes" : 
+			[
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155
+			]
+		},
+		{
+			"name" : "src\\render\\direct3d12",
+			"sourceIndexes" : 
+			[
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168
+			]
+		},
+		{
+			"name" : "src\\render\\gpu",
+			"sourceIndexes" : 
+			[
+				169,
+				170,
+				171,
+				172,
+				173,
+				174
+			]
+		},
+		{
+			"name" : "src\\render\\metal",
+			"sourceIndexes" : 
+			[
+				175,
+				176,
+				177,
+				178,
+				179
+			]
+		},
+		{
+			"name" : "src\\render\\ngage",
+			"sourceIndexes" : 
+			[
+				180,
+				181
+			]
+		},
+		{
+			"name" : "src\\render\\opengl",
+			"sourceIndexes" : 
+			[
+				182,
+				183,
+				184,
+				185
+			]
+		},
+		{
+			"name" : "src\\render\\opengles2",
+			"sourceIndexes" : 
+			[
+				186,
+				187,
+				188,
+				189
+			]
+		},
+		{
+			"name" : "src\\render\\ps2",
+			"sourceIndexes" : 
+			[
+				190
+			]
+		},
+		{
+			"name" : "src\\render\\psp",
+			"sourceIndexes" : 
+			[
+				191,
+				192
+			]
+		},
+		{
+			"name" : "src\\render\\software",
+			"sourceIndexes" : 
+			[
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207
+			]
+		},
+		{
+			"name" : "src\\render\\vitagxm",
+			"sourceIndexes" : 
+			[
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214
+			]
+		},
+		{
+			"name" : "src\\render\\vulkan",
+			"sourceIndexes" : 
+			[
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221
+			]
+		},
+		{
+			"name" : "src\\sensor",
+			"sourceIndexes" : 
+			[
+				222,
+				223,
+				224
+			]
+		},
+		{
+			"name" : "src\\stdlib",
+			"sourceIndexes" : 
+			[
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243
+			]
+		},
+		{
+			"name" : "src\\storage",
+			"sourceIndexes" : 
+			[
+				244,
+				245
+			]
+		},
+		{
+			"name" : "src\\thread",
+			"sourceIndexes" : 
+			[
+				246,
+				247,
+				248
+			]
+		},
+		{
+			"name" : "src\\time",
+			"sourceIndexes" : 
+			[
+				249,
+				250
+			]
+		},
+		{
+			"name" : "src\\timer",
+			"sourceIndexes" : 
+			[
+				251,
+				252
+			]
+		},
+		{
+			"name" : "src\\video",
+			"sourceIndexes" : 
+			[
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278,
+				279,
+				280,
+				281,
+				282,
+				283,
+				284,
+				285,
+				286,
+				287,
+				288,
+				289,
+				290,
+				291,
+				292,
+				293,
+				294,
+				295
+			]
+		},
+		{
+			"name" : "src\\video\\yuv2rgb",
+			"sourceIndexes" : 
+			[
+				296,
+				297,
+				298,
+				299,
+				300,
+				301,
+				302,
+				303,
+				304,
+				305,
+				306,
+				307
+			]
+		},
+		{
+			"name" : "src\\audio\\dummy",
+			"sourceIndexes" : 
+			[
+				308,
+				309
+			]
+		},
+		{
+			"name" : "src\\audio\\disk",
+			"sourceIndexes" : 
+			[
+				310,
+				311
+			]
+		},
+		{
+			"name" : "src\\camera\\dummy",
+			"sourceIndexes" : 
+			[
+				312
+			]
+		},
+		{
+			"name" : "src\\loadso\\dlopen",
+			"sourceIndexes" : 
+			[
+				313
+			]
+		},
+		{
+			"name" : "src\\joystick\\virtual",
+			"sourceIndexes" : 
+			[
+				314,
+				315
+			]
+		},
+		{
+			"name" : "src\\video\\dummy",
+			"sourceIndexes" : 
+			[
+				316,
+				317,
+				318,
+				319,
+				320,
+				321
+			]
+		},
+		{
+			"name" : "src\\audio\\alsa",
+			"sourceIndexes" : 
+			[
+				322
+			]
+		},
+		{
+			"name" : "src\\audio\\pulseaudio",
+			"sourceIndexes" : 
+			[
+				323
+			]
+		},
+		{
+			"name" : "src\\audio\\sndio",
+			"sourceIndexes" : 
+			[
+				324
+			]
+		},
+		{
+			"name" : "src\\video\\x11",
+			"sourceIndexes" : 
+			[
+				325,
+				326,
+				327,
+				328,
+				329,
+				330,
+				331,
+				332,
+				333,
+				334,
+				335,
+				336,
+				337,
+				338,
+				339,
+				340,
+				341,
+				342,
+				343,
+				344,
+				345,
+				346,
+				347,
+				348
+			]
+		},
+		{
+			"name" : "src\\video\\kmsdrm",
+			"sourceIndexes" : 
+			[
+				349,
+				350,
+				351,
+				352,
+				353,
+				354
+			]
+		},
+		{
+			"name" : "src\\video\\wayland",
+			"sourceIndexes" : 
+			[
+				355,
+				356,
+				357,
+				358,
+				359,
+				360,
+				361,
+				362,
+				363,
+				364,
+				365,
+				366,
+				367
+			]
+		},
+		{
+			"name" : "src\\tray\\unix",
+			"sourceIndexes" : 
+			[
+				392
+			]
+		},
+		{
+			"name" : "src\\core\\unix",
+			"sourceIndexes" : 
+			[
+				393,
+				394,
+				395,
+				396,
+				397,
+				398,
+				399,
+				400,
+				401,
+				402
+			]
+		},
+		{
+			"name" : "src\\camera\\v4l2",
+			"sourceIndexes" : 
+			[
+				403
+			]
+		},
+		{
+			"name" : "src\\haptic\\linux",
+			"sourceIndexes" : 
+			[
+				404
+			]
+		},
+		{
+			"name" : "src\\core\\linux",
+			"sourceIndexes" : 
+			[
+				405,
+				406,
+				407,
+				408,
+				409,
+				410,
+				411,
+				412,
+				413,
+				414,
+				415,
+				416,
+				417,
+				418,
+				419,
+				420,
+				421,
+				422,
+				423
+			]
+		},
+		{
+			"name" : "src\\joystick\\hidapi",
+			"sourceIndexes" : 
+			[
+				424,
+				425,
+				426,
+				427,
+				428,
+				429,
+				430,
+				431,
+				432,
+				433,
+				434,
+				435,
+				436,
+				437,
+				438,
+				439,
+				440,
+				441,
+				442,
+				443,
+				444,
+				445,
+				446,
+				447,
+				448,
+				449,
+				450
+			]
+		},
+		{
+			"name" : "src\\haptic\\hidapi",
+			"sourceIndexes" : 
+			[
+				451,
+				452
+			]
+		},
+		{
+			"name" : "src\\joystick\\linux",
+			"sourceIndexes" : 
+			[
+				453,
+				454
+			]
+		},
+		{
+			"name" : "src\\thread\\pthread",
+			"sourceIndexes" : 
+			[
+				455,
+				456,
+				457,
+				458,
+				459,
+				460
+			]
+		},
+		{
+			"name" : "src\\misc\\unix",
+			"sourceIndexes" : 
+			[
+				461
+			]
+		},
+		{
+			"name" : "src\\power\\linux",
+			"sourceIndexes" : 
+			[
+				462
+			]
+		},
+		{
+			"name" : "src\\locale\\unix",
+			"sourceIndexes" : 
+			[
+				463
+			]
+		},
+		{
+			"name" : "src\\filesystem\\unix",
+			"sourceIndexes" : 
+			[
+				464
+			]
+		},
+		{
+			"name" : "src\\storage\\generic",
+			"sourceIndexes" : 
+			[
+				465
+			]
+		},
+		{
+			"name" : "src\\storage\\steam",
+			"sourceIndexes" : 
+			[
+				466,
+				467
+			]
+		},
+		{
+			"name" : "src\\filesystem\\posix",
+			"sourceIndexes" : 
+			[
+				468
+			]
+		},
+		{
+			"name" : "src\\time\\unix",
+			"sourceIndexes" : 
+			[
+				469
+			]
+		},
+		{
+			"name" : "src\\timer\\unix",
+			"sourceIndexes" : 
+			[
+				470
+			]
+		},
+		{
+			"name" : "src\\dialog",
+			"sourceIndexes" : 
+			[
+				471,
+				472
+			]
+		},
+		{
+			"name" : "src\\dialog\\unix",
+			"sourceIndexes" : 
+			[
+				473,
+				474,
+				475,
+				476,
+				477,
+				478,
+				479
+			]
+		},
+		{
+			"name" : "src\\process",
+			"sourceIndexes" : 
+			[
+				480
+			]
+		},
+		{
+			"name" : "src\\process\\posix",
+			"sourceIndexes" : 
+			[
+				481
+			]
+		},
+		{
+			"name" : "src\\video\\offscreen",
+			"sourceIndexes" : 
+			[
+				482,
+				483,
+				484,
+				485,
+				486,
+				487,
+				488,
+				489,
+				490,
+				491,
+				492,
+				493
+			]
+		},
+		{
+			"name" : "src\\tray",
+			"sourceIndexes" : 
+			[
+				494
+			]
+		},
+		{
+			"name" : "src\\gpu\\vulkan",
+			"sourceIndexes" : 
+			[
+				495,
+				496
+			]
+		},
+		{
+			"name" : "src\\sensor\\dummy",
+			"sourceIndexes" : 
+			[
+				497,
+				498
+			]
+		},
+		{
+			"name" : "src\\main\\generic",
+			"sourceIndexes" : 
+			[
+				499
+			]
+		},
+		{
+			"name" : "include\\SDL3",
+			"sourceIndexes" : 
+			[
+				500,
+				501,
+				502,
+				503,
+				504,
+				505,
+				506,
+				507,
+				508,
+				509,
+				510,
+				511,
+				512,
+				513,
+				514,
+				515,
+				516,
+				517,
+				518,
+				519,
+				520,
+				521,
+				522,
+				523,
+				524,
+				525,
+				526,
+				527,
+				528,
+				529,
+				530,
+				531,
+				532,
+				533,
+				534,
+				535,
+				536,
+				537,
+				538,
+				539,
+				540,
+				541,
+				542,
+				543,
+				544,
+				545,
+				546,
+				547,
+				548,
+				549,
+				550,
+				551,
+				552,
+				553,
+				554,
+				555,
+				556,
+				557,
+				558,
+				559,
+				560,
+				561,
+				562,
+				563,
+				564,
+				565,
+				566,
+				567,
+				568,
+				569,
+				570,
+				571,
+				572,
+				573
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				574
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				575
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				576,
+				577,
+				578,
+				579,
+				580,
+				581,
+				582,
+				583,
+				584,
+				585,
+				586,
+				587,
+				588,
+				589,
+				590,
+				591,
+				592,
+				593,
+				594,
+				595,
+				596,
+				597,
+				598,
+				599,
+				600,
+				601,
+				602,
+				603,
+				604,
+				605,
+				606,
+				607,
+				608,
+				609,
+				610,
+				611,
+				612,
+				613,
+				614,
+				615,
+				616,
+				617,
+				618,
+				619,
+				620,
+				621,
+				622,
+				623
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"path" : "build/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/SDL.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/SDL_assert.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/SDL_assert_c.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/SDL_error.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/SDL_error_c.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/SDL_guid.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/SDL_hashtable.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/SDL_hashtable.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/SDL_hints.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/SDL_hints_c.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/SDL_internal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/SDL_list.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/SDL_list.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/SDL_log.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/SDL_log_c.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/SDL_properties.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/SDL_properties_c.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/SDL_utils.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/SDL_utils_c.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/atomic/SDL_atomic.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/atomic/SDL_spinlock.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/audio/SDL_audio.c",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/audio/SDL_audio_c.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/audio/SDL_audio_channel_converters.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/audio/SDL_audiocvt.c",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/audio/SDL_audiodev.c",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/audio/SDL_audiodev_c.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/audio/SDL_audioqueue.c",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/audio/SDL_audioqueue.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/audio/SDL_audioresample.c",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/audio/SDL_audioresample.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/audio/SDL_audiotypecvt.c",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/audio/SDL_mixer.c",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/audio/SDL_sysaudio.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/audio/SDL_wave.c",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/audio/SDL_wave.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/camera/SDL_camera.c",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/camera/SDL_camera_c.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/camera/SDL_syscamera.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/core/SDL_core_unsupported.c",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/core/SDL_core_unsupported.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/cpuinfo/SDL_cpuinfo.c",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/cpuinfo/SDL_cpuinfo_c.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 2,
+			"path" : "vendored/SDL/src/dynapi/SDL_dynapi.c",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/dynapi/SDL_dynapi.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/dynapi/SDL_dynapi_overrides.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/dynapi/SDL_dynapi_procs.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/dynapi/SDL_dynapi_unsupported.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/events/SDL_categories.c",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/events/SDL_categories_c.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/events/SDL_clipboardevents.c",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/events/SDL_clipboardevents_c.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/events/SDL_displayevents.c",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/events/SDL_displayevents_c.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/events/SDL_dropevents.c",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/events/SDL_dropevents_c.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/events/SDL_events.c",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/events/SDL_events_c.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/events/SDL_eventwatch.c",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/events/SDL_eventwatch_c.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/events/SDL_keyboard.c",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/events/SDL_keyboard_c.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/events/SDL_keymap.c",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/events/SDL_keymap_c.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/events/SDL_keysym_to_keycode.c",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/events/SDL_keysym_to_keycode_c.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/events/SDL_keysym_to_scancode.c",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/events/SDL_keysym_to_scancode_c.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/events/SDL_mouse.c",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/events/SDL_mouse_c.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/events/SDL_pen.c",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/events/SDL_pen_c.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/events/SDL_quit.c",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/events/SDL_scancode_tables.c",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/events/SDL_scancode_tables_c.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/events/SDL_touch.c",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/events/SDL_touch_c.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/events/SDL_windowevents.c",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/events/SDL_windowevents_c.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/events/blank_cursor.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/events/default_cursor.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/events/imKStoUCS.c",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/events/imKStoUCS.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/events/scancodes_darwin.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/events/scancodes_linux.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/events/scancodes_windows.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/events/scancodes_xfree86.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/filesystem/SDL_filesystem.c",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/filesystem/SDL_filesystem_c.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/filesystem/SDL_sysfilesystem.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/gpu/SDL_gpu.c",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/gpu/SDL_sysgpu.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/haptic/SDL_haptic.c",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/haptic/SDL_haptic_c.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/haptic/SDL_syshaptic.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/hidapi/SDL_hidapi.c",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/hidapi/SDL_hidapi_android.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/hidapi/SDL_hidapi_c.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/hidapi/SDL_hidapi_ios.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/hidapi/SDL_hidapi_libusb.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/hidapi/SDL_hidapi_linux.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/hidapi/SDL_hidapi_mac.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/hidapi/SDL_hidapi_netbsd.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/hidapi/SDL_hidapi_steamxbox.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/hidapi/SDL_hidapi_windows.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/io/SDL_asyncio.c",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/io/SDL_asyncio_c.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/io/SDL_iostream.c",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/io/SDL_iostream_c.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/io/SDL_sysasyncio.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/io/generic/SDL_asyncio_generic.c",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/SDL_gamepad.c",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/joystick/SDL_gamepad_c.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/joystick/SDL_gamepad_db.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/SDL_joystick.c",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/joystick/SDL_joystick_c.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/SDL_steam_virtual_gamepad.c",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/joystick/SDL_steam_virtual_gamepad.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/joystick/SDL_sysjoystick.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/joystick/controller_list.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/controller_type.c",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/joystick/controller_type.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/joystick/usb_ids.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/locale/SDL_locale.c",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/locale/SDL_syslocale.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/main/SDL_main_callbacks.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/main/SDL_main_callbacks.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/main/SDL_runapp.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/misc/SDL_libusb.c",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/misc/SDL_libusb.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/misc/SDL_sysurl.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/misc/SDL_url.c",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/power/SDL_power.c",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/power/SDL_syspower.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/SDL_d3dmath.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/SDL_render.c",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/SDL_render_debug_font.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/SDL_render_unsupported.c",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/SDL_sysrender.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/SDL_yuv_sw.c",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/SDL_yuv_sw_c.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/direct3d/D3D9_PixelShader_Palette.h",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/direct3d/D3D9_PixelShader_Palette_Linear.h",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/direct3d/D3D9_PixelShader_Palette_Nearest.h",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/direct3d/D3D9_PixelShader_YUV.h",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/direct3d/SDL_render_d3d.c",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/direct3d/SDL_shaders_d3d.c",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/direct3d/SDL_shaders_d3d.h",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/direct3d11/D3D11_PixelShader_Advanced.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/direct3d11/D3D11_PixelShader_Colors.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/direct3d11/D3D11_PixelShader_Textures.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/direct3d11/D3D11_VertexShader.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/direct3d11/SDL_render_d3d11.c",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/direct3d11/SDL_shaders_d3d11.c",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/direct3d11/SDL_shaders_d3d11.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/direct3d12/D3D12_PixelShader_Advanced.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/direct3d12/D3D12_PixelShader_Colors.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/direct3d12/D3D12_PixelShader_Textures.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/direct3d12/D3D12_RootSig_Advanced.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/direct3d12/D3D12_RootSig_Color.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/direct3d12/D3D12_RootSig_Texture.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/direct3d12/D3D12_VertexShader_Advanced.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/direct3d12/D3D12_VertexShader_Color.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/direct3d12/D3D12_VertexShader_Texture.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/direct3d12/SDL_render_d3d12.c",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/direct3d12/SDL_render_d3d12_xbox.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/direct3d12/SDL_shaders_d3d12.c",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/direct3d12/SDL_shaders_d3d12.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/gpu/SDL_gpu_util.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/gpu/SDL_pipeline_gpu.c",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/gpu/SDL_pipeline_gpu.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/gpu/SDL_render_gpu.c",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/gpu/SDL_shaders_gpu.c",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/gpu/SDL_shaders_gpu.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/metal/SDL_shaders_metal_ios.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/metal/SDL_shaders_metal_iphonesimulator.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/metal/SDL_shaders_metal_macos.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/metal/SDL_shaders_metal_tvos.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/metal/SDL_shaders_metal_tvsimulator.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/ngage/SDL_render_ngage.c",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/ngage/SDL_render_ngage_c.h",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/opengl/SDL_glfuncs.h",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/opengl/SDL_render_gl.c",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/opengl/SDL_shaders_gl.c",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/opengl/SDL_shaders_gl.h",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/opengles2/SDL_gles2funcs.h",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/opengles2/SDL_render_gles2.c",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/opengles2/SDL_shaders_gles2.c",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/opengles2/SDL_shaders_gles2.h",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/ps2/SDL_render_ps2.c",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/psp/SDL_render_psp.c",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/psp/SDL_render_psp_c.h",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/software/SDL_blendfillrect.c",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/software/SDL_blendfillrect.h",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/software/SDL_blendline.c",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/software/SDL_blendline.h",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/software/SDL_blendpoint.c",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/software/SDL_blendpoint.h",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/software/SDL_draw.h",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/software/SDL_drawline.c",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/software/SDL_drawline.h",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/software/SDL_drawpoint.c",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/software/SDL_drawpoint.h",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/software/SDL_render_sw.c",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/software/SDL_render_sw_c.h",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/software/SDL_triangle.c",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/software/SDL_triangle.h",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/vitagxm/SDL_render_vita_gxm.c",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/vitagxm/SDL_render_vita_gxm_memory.c",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/vitagxm/SDL_render_vita_gxm_memory.h",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/vitagxm/SDL_render_vita_gxm_shaders.h",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/vitagxm/SDL_render_vita_gxm_tools.c",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/vitagxm/SDL_render_vita_gxm_tools.h",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/vitagxm/SDL_render_vita_gxm_types.h",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/vulkan/SDL_render_vulkan.c",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/render/vulkan/SDL_shaders_vulkan.c",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/vulkan/SDL_shaders_vulkan.h",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/vulkan/VULKAN_PixelShader_Advanced.h",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/vulkan/VULKAN_PixelShader_Colors.h",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/vulkan/VULKAN_PixelShader_Textures.h",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/render/vulkan/VULKAN_VertexShader.h",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/sensor/SDL_sensor.c",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/sensor/SDL_sensor_c.h",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/sensor/SDL_syssensor.h",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/stdlib/SDL_casefolding.h",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/stdlib/SDL_crc16.c",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/stdlib/SDL_crc32.c",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/stdlib/SDL_getenv.c",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/stdlib/SDL_getenv_c.h",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/stdlib/SDL_iconv.c",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/stdlib/SDL_malloc.c",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/stdlib/SDL_memcpy.c",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/stdlib/SDL_memmove.c",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/stdlib/SDL_memset.c",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/stdlib/SDL_mslibc.c",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/stdlib/SDL_murmur3.c",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/stdlib/SDL_qsort.c",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/stdlib/SDL_random.c",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/stdlib/SDL_stdlib.c",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/stdlib/SDL_string.c",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/stdlib/SDL_strtokr.c",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/stdlib/SDL_sysstdlib.h",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/stdlib/SDL_vacopy.h",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/storage/SDL_storage.c",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/storage/SDL_sysstorage.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/thread/SDL_systhread.h",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/thread/SDL_thread.c",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/thread/SDL_thread_c.h",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/time/SDL_time.c",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/time/SDL_time_c.h",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/timer/SDL_timer.c",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/timer/SDL_timer_c.h",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/SDL_RLEaccel.c",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/video/SDL_RLEaccel_c.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/SDL_blit.c",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/video/SDL_blit.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/SDL_blit_0.c",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/SDL_blit_1.c",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/SDL_blit_A.c",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/SDL_blit_N.c",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/SDL_blit_auto.c",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/video/SDL_blit_auto.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/SDL_blit_copy.c",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/video/SDL_blit_copy.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/SDL_blit_slow.c",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/video/SDL_blit_slow.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/SDL_bmp.c",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/SDL_clipboard.c",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/video/SDL_clipboard_c.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/SDL_egl.c",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/video/SDL_egl_c.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/SDL_fillrect.c",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/SDL_pixels.c",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/video/SDL_pixels_c.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/SDL_rect.c",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/video/SDL_rect_c.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/video/SDL_rect_impl.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/SDL_rotate.c",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/video/SDL_rotate.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/SDL_stb.c",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/video/SDL_stb_c.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/SDL_stretch.c",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/SDL_surface.c",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/video/SDL_surface_c.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/video/SDL_sysvideo.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/SDL_video.c",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/video/SDL_video_c.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/SDL_video_unsupported.c",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/video/SDL_video_unsupported.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/video/SDL_vulkan_internal.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/SDL_vulkan_utils.c",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/SDL_yuv.c",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/video/SDL_yuv_c.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/video/miniz.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/video/stb_image.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/video/yuv2rgb/yuv_rgb.h",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/video/yuv2rgb/yuv_rgb_common.h",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/video/yuv2rgb/yuv_rgb_internal.h",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/yuv2rgb/yuv_rgb_lsx.c",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/video/yuv2rgb/yuv_rgb_lsx.h",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/video/yuv2rgb/yuv_rgb_lsx_func.h",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/yuv2rgb/yuv_rgb_sse.c",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/video/yuv2rgb/yuv_rgb_sse.h",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/video/yuv2rgb/yuv_rgb_sse_func.h",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/yuv2rgb/yuv_rgb_std.c",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/video/yuv2rgb/yuv_rgb_std.h",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 59,
+			"path" : "vendored/SDL/src/video/yuv2rgb/yuv_rgb_std_func.h",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 61,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/audio/dummy/SDL_dummyaudio.c",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 61,
+			"path" : "vendored/SDL/src/audio/dummy/SDL_dummyaudio.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 63,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/audio/disk/SDL_diskaudio.c",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 63,
+			"path" : "vendored/SDL/src/audio/disk/SDL_diskaudio.h",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 65,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/camera/dummy/SDL_camera_dummy.c",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 67,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/loadso/dlopen/SDL_sysloadso.c",
+			"sourceGroupIndex" : 45
+		},
+		{
+			"backtrace" : 69,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/virtual/SDL_virtualjoystick.c",
+			"sourceGroupIndex" : 46
+		},
+		{
+			"backtrace" : 69,
+			"path" : "vendored/SDL/src/joystick/virtual/SDL_virtualjoystick_c.h",
+			"sourceGroupIndex" : 46
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/dummy/SDL_nullevents.c",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 71,
+			"path" : "vendored/SDL/src/video/dummy/SDL_nullevents_c.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/dummy/SDL_nullframebuffer.c",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 71,
+			"path" : "vendored/SDL/src/video/dummy/SDL_nullframebuffer_c.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/dummy/SDL_nullvideo.c",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 71,
+			"path" : "vendored/SDL/src/video/dummy/SDL_nullvideo.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 74,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/audio/alsa/SDL_alsa_audio.c",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 77,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/audio/pulseaudio/SDL_pulseaudio.c",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 80,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/audio/sndio/SDL_sndioaudio.c",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/x11/SDL_x11clipboard.c",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/x11/SDL_x11dyn.c",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/x11/SDL_x11events.c",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/x11/SDL_x11framebuffer.c",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/x11/SDL_x11keyboard.c",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/x11/SDL_x11messagebox.c",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/x11/SDL_x11modes.c",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/x11/SDL_x11mouse.c",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/x11/SDL_x11opengl.c",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/x11/SDL_x11opengles.c",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/x11/SDL_x11pen.c",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/x11/SDL_x11settings.c",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/x11/SDL_x11shape.c",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/x11/SDL_x11toolkit.c",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/x11/SDL_x11touch.c",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/x11/SDL_x11video.c",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/x11/SDL_x11vulkan.c",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/x11/SDL_x11window.c",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/x11/SDL_x11xfixes.c",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/x11/SDL_x11xinput2.c",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/x11/SDL_x11xsync.c",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/x11/SDL_x11xtest.c",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/x11/edid-parse.c",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/x11/xsettings-client.c",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 85,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/kmsdrm/SDL_kmsdrmdyn.c",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 85,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/kmsdrm/SDL_kmsdrmevents.c",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 85,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/kmsdrm/SDL_kmsdrmmouse.c",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 85,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/kmsdrm/SDL_kmsdrmopengles.c",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 85,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/kmsdrm/SDL_kmsdrmvideo.c",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 85,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/kmsdrm/SDL_kmsdrmvulkan.c",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 87,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/wayland/SDL_waylandclipboard.c",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 87,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/wayland/SDL_waylandcolor.c",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 87,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/wayland/SDL_waylanddatamanager.c",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 87,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/wayland/SDL_waylanddyn.c",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 87,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/wayland/SDL_waylandevents.c",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 87,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/wayland/SDL_waylandkeyboard.c",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 87,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/wayland/SDL_waylandmessagebox.c",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 87,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/wayland/SDL_waylandmouse.c",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 87,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/wayland/SDL_waylandopengles.c",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 87,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/wayland/SDL_waylandshmbuffer.c",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 87,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/wayland/SDL_waylandvideo.c",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 87,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/wayland/SDL_waylandvulkan.c",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 87,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/wayland/SDL_waylandwindow.c",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 90,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/alpha-modifier-v1-protocol.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 93,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/color-management-v1-protocol.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 96,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/cursor-shape-v1-protocol.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 99,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/fractional-scale-v1-protocol.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 102,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/frog-color-management-v1-protocol.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 105,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 108,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 111,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 114,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 117,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 120,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/pointer-warp-v1-protocol.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 123,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 126,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 129,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/tablet-v2-protocol.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 132,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/text-input-unstable-v3-protocol.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 135,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/viewporter-protocol.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 138,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/wayland-protocol.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 141,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/xdg-activation-v1-protocol.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 144,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 147,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/xdg-dialog-v1-protocol.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 150,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 153,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 156,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/xdg-shell-protocol.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 159,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 161,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/tray/unix/SDL_tray.c",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 163,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/core/unix/SDL_appid.c",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 163,
+			"path" : "vendored/SDL/src/core/unix/SDL_appid.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 163,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/core/unix/SDL_fribidi.c",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 163,
+			"path" : "vendored/SDL/src/core/unix/SDL_fribidi.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 163,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/core/unix/SDL_gtk.c",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 163,
+			"path" : "vendored/SDL/src/core/unix/SDL_gtk.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 163,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/core/unix/SDL_libthai.c",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 163,
+			"path" : "vendored/SDL/src/core/unix/SDL_libthai.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 163,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/core/unix/SDL_poll.c",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 163,
+			"path" : "vendored/SDL/src/core/unix/SDL_poll.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 165,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/camera/v4l2/SDL_camera_v4l2.c",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 167,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/haptic/linux/SDL_syshaptic.c",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 169,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/core/linux/SDL_dbus.c",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 169,
+			"path" : "vendored/SDL/src/core/linux/SDL_dbus.h",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 169,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/core/linux/SDL_system_theme.c",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 169,
+			"path" : "vendored/SDL/src/core/linux/SDL_system_theme.h",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 169,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/core/linux/SDL_progressbar.c",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 169,
+			"path" : "vendored/SDL/src/core/linux/SDL_progressbar.h",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 171,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/core/linux/SDL_ime.c",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 171,
+			"path" : "vendored/SDL/src/core/linux/SDL_ime.h",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 173,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/core/linux/SDL_ibus.c",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 173,
+			"path" : "vendored/SDL/src/core/linux/SDL_ibus.h",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 175,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/core/linux/SDL_fcitx.c",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 175,
+			"path" : "vendored/SDL/src/core/linux/SDL_fcitx.h",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 177,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/core/linux/SDL_udev.c",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 177,
+			"path" : "vendored/SDL/src/core/linux/SDL_udev.h",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 179,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/core/linux/SDL_evdev.c",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 179,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/core/linux/SDL_evdev_kbd.c",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 181,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/core/linux/SDL_evdev_capabilities.c",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 181,
+			"path" : "vendored/SDL/src/core/linux/SDL_evdev_capabilities.h",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 181,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/core/linux/SDL_threadprio.c",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 184,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_8bitdo.c",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 184,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_combined.c",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 184,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_flydigi.c",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 184,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_gamecube.c",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 184,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_gip.c",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 184,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_lg4ff.c",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 184,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_luna.c",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 184,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_ps3.c",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 184,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_ps4.c",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 184,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_ps5.c",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 184,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.c",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 184,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_shield.c",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 184,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_sinput.c",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 184,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_stadia.c",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 184,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_steam.c",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 184,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_steam_hori.c",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 184,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_steam_triton.c",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 184,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_steamdeck.c",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 184,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_switch.c",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 184,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_switch2.c",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 184,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_wii.c",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 184,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_xbox360.c",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 184,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_xbox360w.c",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 184,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_xboxone.c",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 184,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_zuiki.c",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 184,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick.c",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 184,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/hidapi/SDL_report_descriptor.c",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 186,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/haptic/hidapi/SDL_hidapihaptic.c",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 186,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 188,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/joystick/linux/SDL_sysjoystick.c",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 188,
+			"path" : "vendored/SDL/src/joystick/linux/SDL_sysjoystick_c.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 190,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/thread/pthread/SDL_systhread.c",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 190,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/thread/pthread/SDL_sysmutex.c",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 190,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/thread/pthread/SDL_syscond.c",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 190,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/thread/pthread/SDL_sysrwlock.c",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 190,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/thread/pthread/SDL_systls.c",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 192,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/thread/pthread/SDL_syssem.c",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 194,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/misc/unix/SDL_sysurl.c",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 196,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/power/linux/SDL_syspower.c",
+			"sourceGroupIndex" : 64
+		},
+		{
+			"backtrace" : 198,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/locale/unix/SDL_syslocale.c",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 200,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/filesystem/unix/SDL_sysfilesystem.c",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 202,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/storage/generic/SDL_genericstorage.c",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 204,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/storage/steam/SDL_steamstorage.c",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 204,
+			"path" : "vendored/SDL/src/storage/steam/SDL_steamstorage_proc.h",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 206,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/filesystem/posix/SDL_sysfsops.c",
+			"sourceGroupIndex" : 69
+		},
+		{
+			"backtrace" : 208,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/time/unix/SDL_systime.c",
+			"sourceGroupIndex" : 70
+		},
+		{
+			"backtrace" : 210,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/timer/unix/SDL_systimer.c",
+			"sourceGroupIndex" : 71
+		},
+		{
+			"backtrace" : 212,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/dialog/SDL_dialog.c",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 214,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/dialog/SDL_dialog_utils.c",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 216,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/dialog/unix/SDL_unixdialog.c",
+			"sourceGroupIndex" : 73
+		},
+		{
+			"backtrace" : 218,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/dialog/unix/SDL_portaldialog.c",
+			"sourceGroupIndex" : 73
+		},
+		{
+			"backtrace" : 220,
+			"path" : "vendored/SDL/src/dialog/unix/SDL_portaldialog.h",
+			"sourceGroupIndex" : 73
+		},
+		{
+			"backtrace" : 222,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/dialog/unix/SDL_zenitydialog.c",
+			"sourceGroupIndex" : 73
+		},
+		{
+			"backtrace" : 224,
+			"path" : "vendored/SDL/src/dialog/unix/SDL_zenitydialog.h",
+			"sourceGroupIndex" : 73
+		},
+		{
+			"backtrace" : 226,
+			"path" : "vendored/SDL/src/dialog/unix/SDL_zenitymessagebox.h",
+			"sourceGroupIndex" : 73
+		},
+		{
+			"backtrace" : 228,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/dialog/unix/SDL_zenitymessagebox.c",
+			"sourceGroupIndex" : 73
+		},
+		{
+			"backtrace" : 230,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/process/SDL_process.c",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 232,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/process/posix/SDL_posixprocess.c",
+			"sourceGroupIndex" : 75
+		},
+		{
+			"backtrace" : 234,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/offscreen/SDL_offscreenevents.c",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 234,
+			"path" : "vendored/SDL/src/video/offscreen/SDL_offscreenevents_c.h",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 234,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/offscreen/SDL_offscreenframebuffer.c",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 234,
+			"path" : "vendored/SDL/src/video/offscreen/SDL_offscreenframebuffer_c.h",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 234,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/offscreen/SDL_offscreenopengles.c",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 234,
+			"path" : "vendored/SDL/src/video/offscreen/SDL_offscreenopengles.h",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 234,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/offscreen/SDL_offscreenvideo.c",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 234,
+			"path" : "vendored/SDL/src/video/offscreen/SDL_offscreenvideo.h",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 234,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/offscreen/SDL_offscreenvulkan.c",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 234,
+			"path" : "vendored/SDL/src/video/offscreen/SDL_offscreenvulkan.h",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 234,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/video/offscreen/SDL_offscreenwindow.c",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 234,
+			"path" : "vendored/SDL/src/video/offscreen/SDL_offscreenwindow.h",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 236,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/tray/SDL_tray_utils.c",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 238,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/gpu/vulkan/SDL_gpu_vulkan.c",
+			"sourceGroupIndex" : 78
+		},
+		{
+			"backtrace" : 238,
+			"path" : "vendored/SDL/src/gpu/vulkan/SDL_gpu_vulkan_vkfuncs.h",
+			"sourceGroupIndex" : 78
+		},
+		{
+			"backtrace" : 240,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/sensor/dummy/SDL_dummysensor.c",
+			"sourceGroupIndex" : 79
+		},
+		{
+			"backtrace" : 240,
+			"path" : "vendored/SDL/src/sensor/dummy/SDL_dummysensor.h",
+			"sourceGroupIndex" : 79
+		},
+		{
+			"backtrace" : 242,
+			"compileGroupIndex" : 1,
+			"path" : "vendored/SDL/src/main/generic/SDL_sysmain_callbacks.c",
+			"sourceGroupIndex" : 80
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_assert.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_asyncio.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_atomic.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_audio.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_begin_code.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_bits.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_blendmode.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_camera.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_clipboard.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_close_code.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_copying.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_cpuinfo.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_dialog.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_dlopennote.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_egl.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_endian.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_error.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_events.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_filesystem.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_gamepad.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_gpu.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_guid.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_haptic.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_hidapi.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_hints.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_init.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_intrin.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_iostream.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_joystick.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_keyboard.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_keycode.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_loadso.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_locale.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_log.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_main.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_main_impl.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_messagebox.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_metal.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_misc.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_mouse.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_mutex.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_oldnames.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_opengl.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_opengl_glext.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_opengles.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_opengles2.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_opengles2_gl2.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_opengles2_gl2ext.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_opengles2_gl2platform.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_opengles2_khrplatform.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_pen.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_pixels.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_platform.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_platform_defines.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_power.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_process.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_properties.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_rect.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_render.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_scancode.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_sensor.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_stdinc.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_storage.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_surface.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_system.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_thread.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_time.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_timer.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_touch.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_tray.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_version.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_video.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "vendored/SDL/include/SDL3/SDL_vulkan.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 244,
+			"path" : "build/vendored/SDL/include-revision/SDL3/SDL_revision.h",
+			"sourceGroupIndex" : 82
+		},
+		{
+			"backtrace" : 0,
+			"path" : "build/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h",
+			"sourceGroupIndex" : 83
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/alpha-modifier-v1-protocol.c.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/color-management-v1-protocol.c.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/cursor-shape-v1-protocol.c.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/fractional-scale-v1-protocol.c.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/frog-color-management-v1-protocol.c.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/pointer-warp-v1-protocol.c.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/tablet-v2-protocol.c.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/text-input-unstable-v3-protocol.c.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/viewporter-protocol.c.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/wayland-protocol.c.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/xdg-activation-v1-protocol.c.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/xdg-dialog-v1-protocol.c.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/xdg-shell-protocol.c.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/alpha-modifier-v1-client-protocol.h.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/color-management-v1-client-protocol.h.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/cursor-shape-v1-client-protocol.h.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/fractional-scale-v1-client-protocol.h.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/frog-color-management-v1-client-protocol.h.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/idle-inhibit-unstable-v1-client-protocol.h.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/input-timestamps-unstable-v1-client-protocol.h.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-client-protocol.h.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/pointer-constraints-unstable-v1-client-protocol.h.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/pointer-gestures-unstable-v1-client-protocol.h.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/pointer-warp-v1-client-protocol.h.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/primary-selection-unstable-v1-client-protocol.h.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/relative-pointer-unstable-v1-client-protocol.h.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/tablet-v2-client-protocol.h.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/text-input-unstable-v3-client-protocol.h.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/viewporter-client-protocol.h.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/wayland-client-protocol.h.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/xdg-activation-v1-client-protocol.h.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/xdg-decoration-unstable-v1-client-protocol.h.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/xdg-dialog-v1-client-protocol.h.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/xdg-foreign-unstable-v2-client-protocol.h.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/xdg-output-unstable-v1-client-protocol.h.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/xdg-shell-client-protocol.h.rule",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vendored/SDL/wayland-generated-protocols/xdg-toplevel-icon-v1-client-protocol.h.rule",
+			"sourceGroupIndex" : 84
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}
