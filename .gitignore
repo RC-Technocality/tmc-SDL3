@@ -2,6 +2,7 @@
 src/*.s
 build/
 out/
+vendored/
 cmake-build-*
 *.elf
 *.exe
